@@ -1,4 +1,4 @@
-60a66e00dfcbea910f0471739b93849f *DESCRIPTION
+f5a553101c39138ecd1a112658a00f8e *DESCRIPTION
 f73818a3b66d7d673b7290a098da3a3b *NAMESPACE
 7694d0be66988fce11e1833ee1ec4f54 *R/RcppExports.R
 9d8f25b9f9d3ef62cefeb65a0f94f165 *R/centree.R
@@ -27,11 +27,11 @@ e62585629948e7dd143efbad43c2a6eb *src/Makevars.win
 2abb5f06a0b543eb145920b7fd31d273 *src/RcppExports.cpp
 57e856541a194863dac96790f9e5c225 *src/cluster.cpp
 d93b365c29da9ff3cbf109de25268274 *src/dfa.cpp
-ff9fada010f1e28b02da8be4e7d7f634 *src/disfa.cpp
+acbcf242a9c3c906ec2699090c620aad *src/disfa.cpp
 5f1cdd95d2c9fca8f46fb553d61d4d99 *src/disfa.h
 85a8a29c6bbc3a0cb107d89a2b7f105c *src/dispca.cpp
 454f8097a7c2b3302c254eee4073385f *src/dispca.h
-77d4610da59f1088c00b7494ffd9e37e *src/double_km.cpp
+ceb533ba40818037029df0adb8492a00 *src/double_km.cpp
 1f9c9d1d0aaed0f73d1f78f6a2eeeffc *src/dpca.cpp
 82806a7c8071940244be0a6ff1768dce *src/dpca_km.cpp
 52c7d1cab94e10e38b3df3dd943d41b6 *src/mrand.cpp

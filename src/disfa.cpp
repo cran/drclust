@@ -23,7 +23,8 @@ arma::vec ACP(arma::mat Xr){
     a = (Xr.t()*y)*(1.0/(y.t()*y));
     last = error;
     e = y-(Xr*a);
-    error = arma::conv_to<double>::from((e.t()*e)/n);
+    //** error = arma::conv_to<double>::from((e.t()*e)/n);
+    error = arma::as_scalar((e.t()*e)/n);
   }
   a = a*(1.0/arma::sqrt(a.t()*a));
   y = Xr*a;

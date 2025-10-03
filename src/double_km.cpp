@@ -204,8 +204,12 @@ List doublekm(arma::mat Xs, int K, int Q, int Rndstart = 20, int verbose = 0, in
     Rcpp::rownames(centroids) = namesr;
     Rcpp::colnames(centroids) = namesc;
     
-    Rf_eval(Rf_lang2(Rf_install("print"), centroids), R_GlobalEnv);
-    
+    //Rf_eval(Rf_lang2(Rf_install("print"), centroids), R_GlobalEnv);
+    SEXP call = PROTECT(Rf_lang2(Rf_install("print"), centroids));
+    Rf_eval(call, R_BaseEnv);
+    UNPROTECT(1);    
+
+
     Rcpp::Rcout << "\n>> Unit-clusters: \n" << std::endl;
     Rcpp::colnames(Outu) = namesr;
     Rcpp::StringVector fields = {"Size", "Deviance"};
